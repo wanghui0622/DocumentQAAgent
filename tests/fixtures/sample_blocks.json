@@ -1,0 +1,80 @@
+{
+  "profile": {
+    "pdf_type": "scanned",
+    "page_count": 5,
+    "has_tables_hint": true,
+    "source_file": "data/raw/GBT 1568-2008 键 技术条件.pdf"
+  },
+  "blocks": [
+    {
+      "block_id": "sample_clause_1",
+      "block_type": "clause",
+      "clause_id": "3.1",
+      "page": 3,
+      "content": "3.1 键的抗拉强度应不低于 590 MPa。",
+      "bbox": null,
+      "table_id": null,
+      "doc_id": "GBT1568"
+    },
+    {
+      "block_id": "sample_clause_2",
+      "block_type": "clause",
+      "clause_id": "3.2",
+      "page": 3,
+      "content": "3.2 键的表面不允许有裂纹、浮锈、氧化皮和毛刺。",
+      "bbox": null,
+      "table_id": null,
+      "doc_id": "GBT1568"
+    },
+    {
+      "block_id": "sample_clause_5",
+      "block_type": "clause",
+      "clause_id": "3.5",
+      "page": 4,
+      "content": "3.5 普通平键、导向键及薄型平键：当键长 L 与键宽 b 之比大于等于 8 时，键宽 b 面在长度方向的平行度按 GB/T 1184 的规定，当 b≤6mm 按 7 级，b≥8mm~36mm 按 6 级，b≥40mm 按 5 级。",
+      "bbox": null,
+      "table_id": null,
+      "doc_id": "GBT1568"
+    },
+    {
+      "block_id": "sample_table_full",
+      "block_type": "table",
+      "clause_id": null,
+      "page": 2,
+      "content": "表1 验收检查 AQL\n| 项目 | 普通平键 | 导向键 | 薄型平键 | 半圆键 | 楔键 |\n| --- | --- | --- | --- | --- | --- |\n| 键宽 b 尺寸公差 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 |\n| 键高 h 尺寸公差 | 1.5 | 1.5 | 1.5 | 2.5 | 1.5 |\n| 键长 L 尺寸公差 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5 |",
+      "bbox": null,
+      "table_id": "table_1",
+      "doc_id": "GBT1568"
+    },
+    {
+      "block_id": "sample_table_row_b",
+      "block_type": "table",
+      "clause_id": null,
+      "page": 2,
+      "content": "表1 第1行: 键宽 b 尺寸公差 | 1.5 | 1.5 | 1.5 | 1.5 | 1.5",
+      "bbox": null,
+      "table_id": "table_1",
+      "doc_id": "GBT1568"
+    },
+    {
+      "block_id": "sample_table_row_h",
+      "block_type": "table",
+      "clause_id": null,
+      "page": 2,
+      "content": "表1 第2行: 键高 h 尺寸公差 | 1.5 | 1.5 | 1.5 | 2.5 | 1.5",
+      "bbox": null,
+      "table_id": "table_1",
+      "doc_id": "GBT1568"
+    },
+    {
+      "block_id": "sample_scope",
+      "block_type": "paragraph",
+      "clause_id": null,
+      "page": 1,
+      "content": "本标准规定了除花键外的各种键的技术要求、验收检查、标志与包装。",
+      "bbox": null,
+      "table_id": null,
+      "doc_id": "GBT1568"
+    }
+  ]
+}

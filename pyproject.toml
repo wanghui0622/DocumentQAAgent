@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "document-qa-agent"
+version = "0.1.0"
+description = "Intelligent document QA agent for scanned PDF standards"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "chromadb>=0.5.0",
+    "httpx>=0.27.0",
+    "loguru>=0.7.0",
+    "numpy>=1.26.0",
+    "openai>=1.40.0",
+    "pydantic>=2.7.0",
+    "pydantic-settings>=2.3.0",
+    "pymupdf>=1.24.0",
+    "python-dotenv>=1.0.0",
+    "rich>=13.7.0",
+    "streamlit>=1.37.0",
+    "typer>=0.12.0",
+]
+
+[project.optional-dependencies]
+ocr = [
+    "paddleocr>=2.7.0",
+    "paddlepaddle>=2.6.0",
+]
+dev = ["pytest>=8.0.0"]
+all = ["document-qa-agent[ocr,dev]"]
+
+[project.scripts]
+docqa = "src.cli:app"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["src*"]

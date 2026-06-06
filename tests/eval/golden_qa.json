@@ -1,0 +1,102 @@
+[
+  {
+    "id": "GBT-Q1",
+    "doc_id": "GBT+1568-2008+键+技术条件",
+    "type": "text_numeric",
+    "question": "键的抗拉强度最低要求是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["590", "MPa"],
+    "expected_clause_ids": ["3.1"],
+    "gold_pages": [3]
+  },
+  {
+    "id": "GBT-Q2",
+    "doc_id": "GBT+1568-2008+键+技术条件",
+    "type": "text_quality",
+    "question": "键表面不允许有哪些缺陷？",
+    "expect_answered": true,
+    "expected_keywords": ["裂纹", "浮锈", "氧化", "毛刺"],
+    "expected_clause_ids": ["3.2"],
+    "gold_pages": [3]
+  },
+  {
+    "id": "GBT-Q3",
+    "doc_id": "GBT+1568-2008+键+技术条件",
+    "type": "table",
+    "question": "表1中普通平键的键宽 b 尺寸公差 AQL 是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["1.0"],
+    "expected_clause_ids": [],
+    "gold_pages": [4]
+  },
+  {
+    "id": "GBT-Q4",
+    "doc_id": "GBT+1568-2008+键+技术条件",
+    "type": "unanswerable",
+    "question": "花键的技术要求是什么？",
+    "expect_answered": false,
+    "expected_keywords": [],
+    "expected_clause_ids": [],
+    "gold_pages": []
+  },
+  {
+    "id": "GBT-Q5",
+    "doc_id": "GBT+1568-2008+键+技术条件",
+    "type": "packaging",
+    "question": "包装箱外表面应有哪些标志或标签？",
+    "expect_answered": true,
+    "expected_keywords": ["制造厂名", "产品名称", "出厂日期"],
+    "expected_clause_ids": [],
+    "gold_pages": [4]
+  },
+  {
+    "id": "AGENT-Q1",
+    "doc_id": "agent开发作业样本",
+    "type": "table_numeric",
+    "question": "2025年6月30日其他综合收益合计的期末余额是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["1694011073"],
+    "expected_clause_ids": [],
+    "gold_pages": [3]
+  },
+  {
+    "id": "AGENT-Q2",
+    "doc_id": "agent开发作业样本",
+    "type": "table",
+    "question": "2025年6月30日代理买卖证券款的合计金额是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["433717503583", "代理买卖证券款"],
+    "expected_clause_ids": [],
+    "gold_pages": [5]
+  },
+  {
+    "id": "AGENT-Q3",
+    "doc_id": "agent开发作业样本",
+    "type": "table",
+    "question": "2024年12月31日中信建投证券股份有限公司的账面价值是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["4053770084", "中信建投"],
+    "expected_clause_ids": [],
+    "gold_pages": [1]
+  },
+  {
+    "id": "AGENT-Q4",
+    "doc_id": "agent开发作业样本",
+    "type": "unanswerable",
+    "question": "键的抗拉强度最低要求是多少？",
+    "expect_answered": false,
+    "expected_keywords": [],
+    "expected_clause_ids": [],
+    "gold_pages": []
+  },
+  {
+    "id": "AGENT-Q5",
+    "doc_id": "agent开发作业样本",
+    "type": "table",
+    "question": "2025年6月30日不能重分类进损益的其他综合收益期初余额是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["667164807", "不能重分类"],
+    "expected_clause_ids": [],
+    "gold_pages": [3]
+  }
+]

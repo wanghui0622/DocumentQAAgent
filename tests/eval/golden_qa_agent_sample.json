@@ -1,0 +1,52 @@
+[
+  {
+    "id": "AGENT-Q1",
+    "doc_id": "agent开发作业样本",
+    "type": "table_numeric",
+    "question": "2025年6月30日其他综合收益合计的期末余额是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["1694011073"],
+    "expected_clause_ids": [],
+    "gold_pages": [3]
+  },
+  {
+    "id": "AGENT-Q2",
+    "doc_id": "agent开发作业样本",
+    "type": "table",
+    "question": "2025年6月30日代理买卖证券款的合计金额是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["433717503583", "代理买卖证券款"],
+    "expected_clause_ids": [],
+    "gold_pages": [5]
+  },
+  {
+    "id": "AGENT-Q3",
+    "doc_id": "agent开发作业样本",
+    "type": "table",
+    "question": "2024年12月31日中信建投证券股份有限公司的账面价值是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["4053770084", "中信建投"],
+    "expected_clause_ids": [],
+    "gold_pages": [1]
+  },
+  {
+    "id": "AGENT-Q4",
+    "doc_id": "agent开发作业样本",
+    "type": "unanswerable",
+    "question": "键的抗拉强度最低要求是多少？",
+    "expect_answered": false,
+    "expected_keywords": [],
+    "expected_clause_ids": [],
+    "gold_pages": []
+  },
+  {
+    "id": "AGENT-Q5",
+    "doc_id": "agent开发作业样本",
+    "type": "table",
+    "question": "2025年6月30日不能重分类进损益的其他综合收益期初余额是多少？",
+    "expect_answered": true,
+    "expected_keywords": ["667164807", "不能重分类"],
+    "expected_clause_ids": [],
+    "gold_pages": [3]
+  }
+]
