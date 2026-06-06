@@ -215,9 +215,6 @@ Query → QueryRouter（表格/条款/超范围/通用）
       → AnswerVerifier（引用 / 数值 / grounding 三重校验）
       → QAResponse（answered | refused）
 ```
-
-详细设计见 [`doc/设计说明.md`](doc/设计说明.md)，测试方法见 [`doc/测试说明.md`](doc/测试说明.md)，演示脚本见 [`doc/演示说明.md`](doc/演示说明.md)。
-
 ---
 
 ## AI 工具使用说明
