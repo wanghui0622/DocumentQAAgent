@@ -14,3 +14,4 @@ data/raw/*.pdf
 *.log
 .DS_Store
 .streamlit/secrets.toml
+/doc/
