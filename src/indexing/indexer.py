@@ -68,7 +68,7 @@ class DocumentIndexer:
             pass
 
         collection = self.client.create_collection(name=self.COLLECTION_NAME)
-        batch_size = 32
+        batch_size = 10
         for start in range(0, len(chunks), batch_size):
             batch = chunks[start : start + batch_size]
             embeddings = self.embedder.embed_texts([chunk.text for chunk in batch])
